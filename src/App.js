@@ -26,7 +26,7 @@ const App = () => {
         fetchCart();
     }, [])
 
-    console.log(cart);
+    console.log(cart.line_items);
 
     return (
         <div>
