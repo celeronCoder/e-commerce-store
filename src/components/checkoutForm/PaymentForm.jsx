@@ -1,10 +1,13 @@
 import React from 'react'
+import { Typography, Button, Divider } from "@material-ui/core";
 
-function PaymentForm() {
+import Review from "./Review";
+
+function PaymentForm({ checkoutToken }) {
 	return (
-		<div>
-			PaymentForm
-		</div>
+		<>
+			<Review checkoutToken={ checkoutToken }/>
+		</>	
 	)
 }
 

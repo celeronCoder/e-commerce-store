@@ -104,8 +104,8 @@ function AddressForm({ checkoutToken, next }) {
 					</Grid>
 				</form>
 				<br />
-				<div style={{ display: 'felx', justifyContent: 'space-between'}}>
-					<Button component={Link} to="/cart" variant="outlined">Go Back</Button>
+				<div style={{ display: 'flex', justifyContent: 'space-between'}}>
+					<Button component={Link} to="/cart" variant="outlined">Back to Cart</Button>
 					<Button variant="contained" type="submit" color="primary">Next</Button>
 				</div>
 			</FormProvider>
